@@ -1,4 +1,7 @@
-package tomcat;
+package miniServer.servlet;
+
+import miniServer.pojo.MyRequest;
+import miniServer.pojo.MyResponse;
 
 import java.io.IOException;
 /**
@@ -6,7 +9,7 @@ import java.io.IOException;
 
  * @author Yien 2019/2/18 14:56
  */
-public class ClassNotFoundServlet extends Servlet {
+public class ClassNotFoundServlet extends AbstractServlet {
 
     @Override
     public void doGet(MyRequest myRequest, MyResponse myResponse) {
