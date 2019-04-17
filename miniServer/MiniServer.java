@@ -30,7 +30,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class MiniServer {
     private static int port = 8088;
     /**
-     * key-url value-class
+     * key-url valule-class
      *
      * @when
      */
